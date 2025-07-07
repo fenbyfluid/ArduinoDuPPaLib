@@ -23,24 +23,24 @@ Declaration of the RGB LED Ring with the jumper SJ2 and SJ7 soldered.
 The  RGB LED Ring v1.1 it have 8 Jumpers for setting the address, they are divided in 2 groups of 4 jumpers. Only 1 jumper per group should be soldered,  this make 16 possible combinations.
 Possible combination are the following:
 
-| Jumper first group | Jumper second group | I2C Address |
-| ------------ | ------------ | :--: |
+| Jumper first group | Jumper second group | I2C Address (7bit) |
+| ------------ | ------------ | ---- |
 | ISSI3746_SJ1 | ISSI3746_SJ5 | 0x60 |
-| ISSI3746_SJ2 | ISSI3746_SJ5 | 0x62 |
-| ISSI3746_SJ3 | ISSI3746_SJ5 | 0x64 |
-| ISSI3746_SJ4 | ISSI3746_SJ5 | 0x66 |
-| ISSI3746_SJ1 | ISSI3746_SJ6 | 0x68 |
-| ISSI3746_SJ2 | ISSI3746_SJ6 | 0x6A |
-| ISSI3746_SJ3 | ISSI3746_SJ6 | 0x6C |
-| ISSI3746_SJ4 | ISSI3746_SJ6 | 0x6E |
-| ISSI3746_SJ1 | ISSI3746_SJ7 | 0x70 |
-| ISSI3746_SJ2 | ISSI3746_SJ7 | 0x72 |
-| ISSI3746_SJ3 | ISSI3746_SJ7 | 0x74 |
-| ISSI3746_SJ4 | ISSI3746_SJ7 | 0x76 |
-| ISSI3746_SJ1 | ISSI3746_SJ8 | 0x78 |
-| ISSI3746_SJ2 | ISSI3746_SJ8 | 0x7A |
-| ISSI3746_SJ3 | ISSI3746_SJ8 | 0x7C |
-| ISSI3746_SJ4 | ISSI3746_SJ8 | 0x7E |
+| ISSI3746_SJ2 | ISSI3746_SJ5 | 0x61 |
+| ISSI3746_SJ3 | ISSI3746_SJ5 | 0x62 |
+| ISSI3746_SJ4 | ISSI3746_SJ5 | 0x63 |
+| ISSI3746_SJ1 | ISSI3746_SJ6 | 0x64 |
+| ISSI3746_SJ2 | ISSI3746_SJ6 | 0x65 |
+| ISSI3746_SJ3 | ISSI3746_SJ6 | 0x66 |
+| ISSI3746_SJ4 | ISSI3746_SJ6 | 0x67 |
+| ISSI3746_SJ1 | ISSI3746_SJ7 | 0x68 |
+| ISSI3746_SJ2 | ISSI3746_SJ7 | 0x69 |
+| ISSI3746_SJ3 | ISSI3746_SJ7 | 0x6A |
+| ISSI3746_SJ4 | ISSI3746_SJ7 | 0x6B |
+| ISSI3746_SJ1 | ISSI3746_SJ8 | 0x6C |
+| ISSI3746_SJ2 | ISSI3746_SJ8 | 0x6D |
+| ISSI3746_SJ3 | ISSI3746_SJ8 | 0x6E |
+| ISSI3746_SJ4 | ISSI3746_SJ8 | 0x6F |
 
 
 
